@@ -13,10 +13,10 @@ function Header() {
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
         </a>
-        <input className="menu-btn" type="checkbox" id="menu-btn" />
+        {/* <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn">
           <span className="navicon"></span>
-        </label>
+        </label> */}
         <ul className="menu">
           <li>
             <a href="#skills">Skills</a>
@@ -26,15 +26,15 @@ function Header() {
               <a href="#experience">Work Experiences</a>
             </li>
           }
-          <li>
+          {/* <li>
             <a href="#opensource">Open Source</a>
-          </li>
+          </li> */}
           <li>
             <a href="#projects">Projects</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#achievements">Achievements</a>
-          </li>
+          </li> */}
           <li>
             <a href="#blogs">Blogs</a>
           </li>

@@ -1,15 +1,17 @@
 .startup-projects-main {
   display: flex;
+
 }
 
 .startup-projects-main > * {
   flex: 1;
-  margin-bottom: 30px;
+    
 }
 
 .starup-project-image > img {
   max-width: 100%;
   height: auto;
+  
 }
 
 .project-card-head {
@@ -23,6 +25,8 @@
 .startup-project-text {
   display: flex;
   justify-content: space-between;
+  width: 200px;
+  height: 100px;
 }
 
 .project-card-description {
@@ -31,6 +35,9 @@
 .saaya-health-div,
 .nextu-div {
   cursor: pointer;
+  margin: 10px;
+  height: 100%;
+  
 }
 
 @media (max-width: 768px) {

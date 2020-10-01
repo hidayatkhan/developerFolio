@@ -7,23 +7,23 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Hidayat ur Rehman",
+  title: "I'm Hidayat",
   subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: ""
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  github: "https://github.com/hidayatkhan",
+  linkedin: "https://www.linkedin.com/in/hidayaturrehmanchitrali/",
+  gmail: "hidayat.rehman64@gmail.com",
+  gitlab: "https://gitlab.com/HidayatChitrali",
+  facebook: "https://www.facebook.com/hidayat.rehmanchitrali",
+  medium: "https://medium.com/@hidayat.rehman64",
+  stackoverflow: "https://stackoverflow.com/users/9159181/hidayat-ur-rehman"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -67,8 +67,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "angular",
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
       skillName: "npm",
@@ -78,23 +78,11 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
+      {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ]
+     ]
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -103,8 +91,8 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Frontend Development/Design",  //Insert stack or technology you have experience in
+      progressPercentage: "95%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -112,7 +100,11 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Database",
+      progressPercentage: "65%"
     }
   ]
 };
@@ -125,9 +117,9 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",  
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      company: "Oscar.pk",
+      companylogo: require("./assets/images/oscarlogo.png"),
+      date: "june 2018 – 2020",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -136,15 +128,15 @@ const workExperiences = {
     },
     {
       role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      company: "Market IQ",
+      companylogo: require("./assets/images/marketiqLogo.png"),
+      date: "jan 2016 – May 2017",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      company: "Axiom",
+      companylogo: require("./assets/images/axiomlogo.png"),
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
@@ -156,7 +148,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "Hidayat ", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
@@ -174,6 +166,25 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       link: "http://nextu.se/"
+    },
+    {
+      image:require("./assets/images/grayll.png"),
+      link: "http://grayll.io/"
+    },
+    {
+      image:require("./assets/images/shutlips.webp"),
+      link:"https://shutlips.com/"
+    }, {
+      image:require("./assets/images/mednwed.webp"),
+      link:"https://mednwed.com/"
+    },
+    {
+      image:require("./assets/images/tintlogo.png"),
+      link:"https://tind_app.surge.sh/"
+    },
+    {
+      image:require("./assets/images/albarilogo.png"),
+      link:"http://al-bari.com/"
     }
   ]
 };
@@ -265,8 +276,8 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+923452541450",
+  email_address: "hidayat.rehmanchitrali@gmail.com"
 };
 
 //Twitter Section
